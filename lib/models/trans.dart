@@ -5,7 +5,12 @@ class Trans {
   final String transType;
   final int amount;
 
-  Trans(this.id, this.transDate, this.transName, this.transType, this.amount);
+  Trans(
+      {required this.id,
+      required this.transDate,
+      required this.transName,
+      required this.transType,
+      required this.amount});
 
   Map<String, dynamic> toMap() {
     return {
