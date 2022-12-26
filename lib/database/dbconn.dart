@@ -4,7 +4,7 @@ import 'dart:async';
 
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:flutter_offline/models/trans.dart';
+import 'package:flutter_offline_app/models/trans.dart';
 
 class DbConn {
   late Database database;

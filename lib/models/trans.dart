@@ -1,16 +1,11 @@
 class Trans {
-  final int id;
-  final String transDate;
-  final String transName;
-  final String transType;
-  final int amount;
+  final int? id;
+  final String? transDate;
+  final String? transName;
+  final String? transType;
+  final int? amount;
 
-  Trans(
-      {required this.id,
-      required this.transDate,
-      required this.transName,
-      required this.transType,
-      required this.amount});
+  Trans({this.id, this.transDate, this.transName, this.transType, this.amount});
 
   Map<String, dynamic> toMap() {
     return {

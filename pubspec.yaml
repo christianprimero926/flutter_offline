@@ -1,4 +1,4 @@
-name: flutter_offline
+name: flutter_offline_app
 description: A Flutter offline app.
 
 # The following line prevents the package from being accidentally published to
@@ -37,6 +37,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   sqflite: ^2.2.2
+  datetime_picker_formfield_new: ^2.0.0
+  flutter_offline: ^2.1.0
+  data_connection_checker: ^0.3.4
 
 dev_dependencies:
   flutter_test:
